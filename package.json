@@ -1,0 +1,22 @@
+{
+  "name": "HuntwebAPI",
+  "version": "1.0.0",
+  "description": "Api criada para estudo do ReactJS",
+  "main": "index.js",
+  "author": "Edivan de Castro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3",
+    "npm": "^6.13.4",
+    "require-dir": "^1.2.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}

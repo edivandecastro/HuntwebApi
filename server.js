@@ -11,7 +11,9 @@ config = {
   useUnifiedTopology: true
 }
 
-mongoose.connect('mongodb://localhost:27017/huntweb', config);
+//mongoose.connect('mongodb://localhost:27017/huntweb', config);
+
+mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-hfiub.mongodb.net/huntweb?retryWrites=true&w=majority', config);
 
 requireDir('./src/models');
 
